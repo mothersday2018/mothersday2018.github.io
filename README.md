@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+    <meta name="viewport" content="width=device-width"/>
+  
+  <style type="text/css">
+   
+  </style>
+</head>
+<body>
+     <style>
+       #header {
+ position: fixed;
+           top: 0;
+
+
+
+
+
+   z-index: 999;
+}
+
+
+
+
+
+#content {
+
+   background-color: orangered;
+   width:100%;
+    width: 100vw;
+   height:25px;
+
+   font-family: Verdana;
+
+}
+ article {
+   position: relative;
+   z-index: 99;
+           font-family: Verdana;
+       }
+         #firstsection {
+             text-align: center;
+             
+             
+             font-family: Verdana
+                 ;
+             height:1348px;
+             
+             
+         }
+         #text {
+            position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+         }
+</style>
+   <div id="header">
+   <article>
+ <header>
+<div id="content">
+   <h3 style="color: white; font-size:16px">Happy Mother's Day!</h3>
+</div>
+ </header>
+
+</article>
+       </div>
+    <br/>
+    <br/>
+    <br/>
+    <audio autoplay>
+        <source src="canon.ogg" type="audio/ogg">
+  <source src="canon.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+    </audio>
+    <div id="firstsection">
+        <img src="https://hips.hearstapps.com/clv.h-cdn.co/assets/17/15/1491856896-tcm-mothersday-card-one.jpg" height="1348px" width="1080px" style="z-index: -1"/>
+       <div id="text"> <p>Thank you for taking care of us for all these years!<br/>
+        I hope you will have many good years and live beyond your age, as well as staying in the pink of health, without any white hair!<br/>
+            I love you Mummy!<br/>
+            Happy Mother's Day!
+        </p>
+        <b>But those who trust in the LORD will find new strength. They will soar high on wings like eagles. They will run and not grow weary. They will walk and not be faint. (Isaiah 40:31)</b></div>
+    
+    </div>
+
+</body>
+</html>
